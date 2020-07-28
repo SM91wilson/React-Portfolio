@@ -6,17 +6,11 @@ class Nav extends React.Component {
     return (
       <div className='nav'>
           <h1 className='navHead'>Simon Wilson</h1>
-        <ul>
-            <li className='navList'>
-                <button claaName='btn btn-primary'>Home</button>
-            </li>
-            <li className='navList'>
-                <button claaName='btn btn-primary'>Project</button>
-            </li>
-            <li className='navList'>
-                <button claaName='btn btn-primary'>Contact</button>
-            </li>
-        </ul>
+        <div className='col-12 btn-group' role='group'>
+            <button className='col-4 btn btn-outline-primary btn-block float-right'>Home</button>
+            <button className='col-4 btn btn-outline-primary btn-block float-right'>Project</button>
+            <button className='col-4 btn btn-outline-primary btn-block float-right'>Contact</button>
+        </div>
       </div>
     );
   }
