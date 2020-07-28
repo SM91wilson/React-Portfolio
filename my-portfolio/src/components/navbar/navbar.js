@@ -1,2 +1,18 @@
-import React from 'react';
-import Link from 'react-router-dom';
+import React from "react";
+import Link from "react-router-dom";
+
+class Nav extends React.Component {
+  render() {
+    return (
+      <div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    );
+  }
+}
+
+export default Nav;
