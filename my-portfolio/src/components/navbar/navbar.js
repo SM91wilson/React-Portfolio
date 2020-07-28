@@ -4,14 +4,12 @@ import './style.css'
 class Nav extends React.Component {
   render() {
     return (
-      <div className='nav'>
-          <h1 className='navHead'>Simon Wilson</h1>
-        <div className='col-12 btn-group' role='group'>
-            <button className='col-4 btn btn-outline-primary btn-block float-right'>Home</button>
-            <button className='col-4 btn btn-outline-primary btn-block float-right'>Project</button>
-            <button className='col-4 btn btn-outline-primary btn-block float-right'>Contact</button>
-        </div>
-      </div>
+    <nav className="navbar fixed-top navbar-light bg-light">
+      <a className="navbar-brand" href="#">Simon Wilson</a>
+      <a className='nav-item nav-link float-right' href='#'>Home</a>
+      <a className='nav-item nav-link float-right' href='#'>Projects</a>
+      <a className='nav-item nav-link float-right' href='#'>Contact</a>
+    </nav>
     );
   }
 }
