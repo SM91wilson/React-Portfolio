@@ -1,0 +1,10 @@
+.navList {
+    display: inline;
+    align-content: right;
+    padding: 2%;
+}
+
+.navHead {
+    display: inline;
+    align-content: left;
+}

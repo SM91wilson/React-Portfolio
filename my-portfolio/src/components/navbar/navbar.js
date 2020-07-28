@@ -1,14 +1,15 @@
 import React from "react";
-import Link from "react-router-dom";
+import './style.css'
 
 class Nav extends React.Component {
   render() {
     return (
       <div>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+            <h1 className='navHead'>Simon Wilson</h1>
+            <li className='navList'>Home</li>
+            <li className='navList'>Projects</li>
+            <li className='navList'>Contact</li>
         </ul>
       </div>
     );
