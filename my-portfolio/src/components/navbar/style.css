@@ -1,10 +1,22 @@
 .navList {
     display: inline;
     align-content: right;
-    padding: 2%;
+    padding: 10%;
+    text-align: right;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .navHead {
     display: inline;
     align-content: left;
+    text-align: left;
+}
+
+.btn {
+    
+}
+
+.nav {
+    width: 100%;
 }
