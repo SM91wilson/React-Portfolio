@@ -19,6 +19,9 @@ function App() {
         <div className='row mx-20'>
           <Skills />
         </div>
+        <div className='row'>
+
+        </div>
       </div>
     </div>
   );
