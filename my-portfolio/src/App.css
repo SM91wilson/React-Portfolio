@@ -32,8 +32,8 @@
   margin-top: 100px;
 }
 
-div {
-  margin-top: 50px;
+.projDiv {
+  margin-top: 300px;
 }
 
 @keyframes App-logo-spin {
