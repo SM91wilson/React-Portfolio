@@ -5,6 +5,7 @@ import Picture from "../src/components/pictureCard/picture";
 import Blurb from "../src/components/profileBlurb/blurb";
 import Skills from "../src/components/skills/skills";
 import Projects from "../src/components/projects/projects";
+import Contact from "../src/components/contact/contact";
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
         </div>
         <div className='row mt-20 projDiv'>
           <Projects />
+        </div>
+        <div className='row mt-20 contactDiv'>
+          <Contact />
         </div>
       </div>
     </div>
