@@ -4,6 +4,7 @@ class Blurb extends React.Component {
   render() {
     return (
       <div className='col-6 d-inline'>
+          <br></br>
         <h2>About Me</h2>
         <p>
           Aspiring Web Developer with a background in Science. I developed a
