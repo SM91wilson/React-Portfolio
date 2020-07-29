@@ -19,7 +19,7 @@ function App() {
         <div className='row mx-20'>
           <Skills />
         </div>
-        <div className='row'>
+        <div className='row mt-20 d-inline'>
           <Projects />
         </div>
       </div>
