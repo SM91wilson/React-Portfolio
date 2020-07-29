@@ -5,4 +5,17 @@
 
 .projText {
     margin-left: 10px;
+    margin-right:10px;
+}
+
+.projImg2 {
+    width:100px;
+    height: 100px;
+    float: right;
+}
+
+.projText2 {
+    margin-left: 10px;
+    margin-right:10px;
+    float: right;
 }
